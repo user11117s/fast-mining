@@ -1,0 +1,13 @@
+name: FastMining
+version: '1.0-SNAPSHOT'
+main: com.array64.fastMining.FastMining
+api-version: '1.21'
+authors: [ Array64 ]
+description: You get a limited amount of time to mine. You can then return from the mine to upgrade your mining gear and create a new mine.
+commands:
+  createmine:
+    description: Creates a mine.
+    usage: /<command>
+  leavemine:
+    description: Leaves the current mine.
+    usage: /<command>
